@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1edabf2e.css",
-    "main.js": "/static/js/main.81ceee12.js",
-    "static/js/787.8c8a3184.chunk.js": "/static/js/787.8c8a3184.chunk.js",
-    "static/media/bsap.svg": "/static/media/bsap.11a9c6751251c9a42ff9949653de9e53.svg",
-    "index.html": "/index.html",
-    "main.1edabf2e.css.map": "/static/css/main.1edabf2e.css.map",
-    "main.81ceee12.js.map": "/static/js/main.81ceee12.js.map",
-    "787.8c8a3184.chunk.js.map": "/static/js/787.8c8a3184.chunk.js.map"
+    "main.css": "/appproject-demo-baansuan/static/css/main.1edabf2e.css",
+    "main.js": "/appproject-demo-baansuan/static/js/main.a7e7f258.js",
+    "static/js/787.8c8a3184.chunk.js": "/appproject-demo-baansuan/static/js/787.8c8a3184.chunk.js",
+    "static/media/bsap.svg": "/appproject-demo-baansuan/static/media/bsap.11a9c6751251c9a42ff9949653de9e53.svg",
+    "index.html": "/appproject-demo-baansuan/index.html",
+    "main.1edabf2e.css.map": "/appproject-demo-baansuan/static/css/main.1edabf2e.css.map",
+    "main.a7e7f258.js.map": "/appproject-demo-baansuan/static/js/main.a7e7f258.js.map",
+    "787.8c8a3184.chunk.js.map": "/appproject-demo-baansuan/static/js/787.8c8a3184.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1edabf2e.css",
-    "static/js/main.81ceee12.js"
+    "static/js/main.a7e7f258.js"
   ]
 }
