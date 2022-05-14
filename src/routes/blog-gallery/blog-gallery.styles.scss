@@ -1,0 +1,32 @@
+.blogs-section {
+    // width: 100%;
+    margin: 5%;
+    overflow-x: hidden;
+
+    .blogs-container {
+        display: grid;
+        gap: 10px;
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        padding: 0 15px 15px 15px;
+        // position: absolute;
+        // box-shadow: 5px 10px #888888;
+    }
+
+    p {
+        font-family: 'Noto Sans Thai Looped';
+    }
+
+    
+
+}
+
+.lineClamp {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp:7;
+    -webkit-box-orient:vertical;
+}
+

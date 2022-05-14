@@ -1,0 +1,145 @@
+.slideshow-container {
+  min-width: 30%;
+  margin: 1vh 0;
+  width: 100vw;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: fadeInUp 1.2s;
+  position: relative;
+  // z-index: -1;
+
+  .slideshows {
+    width: 50vw;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .photo {
+      list-style-type: none;
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      top: 0px;
+      left: 0px;
+      color: transparent;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      opacity: 0;
+      z-index: -1;
+      animation: imageAnimation 30s linear infinite 0s;
+
+    }
+  }
+
+  .caption {
+    // max-width: 50%;
+    height: 30%;
+    padding: 20px;
+    margin-right: 25px;
+    // right: 5%;
+    background-color: rgba(252, 252, 252, 0.848);
+    border-radius: 15px;
+    // display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    overflow: auto;
+
+
+    .tracking-in-expand {
+      animation: tracking-in-expand 3s cubic-bezier(.215, .61, .355, 1.000) both
+    }
+
+    h1::before {
+      transform: scaleX(0);
+      transform-origin:  left;
+    }
+
+    h1:hover::before {
+      transform: scaleX(0.3);
+      transform-origin: bottom left;
+    }
+
+    h1::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      inset: 0 0 0 0;
+      background: #B1BB1B;
+      z-index: -1;
+      transition: transform .3s ease;
+    }
+
+    h1 {
+      position: relative;
+      font-size: 2.5rem;
+      // word-break: break-all;
+      resize: both;
+      // text-overflow: ellipsis;
+      // white-space: nowrap;
+      // overflow: hidden;
+
+    }
+
+    p {
+      font-size: 16px;
+      height: 20%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      word-break: break-all;
+      resize: both;
+      text-overflow: ellipsis;
+      // white-space:nowrap;
+      // overflow: scroll;
+    }
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -.5rem;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+
+  17% {
+    opacity: 1
+  }
+
+  25% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
