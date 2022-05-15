@@ -17,7 +17,7 @@ const Footer = () => {
 
                 <div className="footnote-rightsection">
                     <h2>เชื่อมต่อกับเรา</h2>
-                    <a href=""><FacebookIcon /><span>&ensp;</span></a>
+                    <a href="https://www.facebook.com/peteSasithep/"><FacebookIcon /><span>&ensp;</span></a>
                     <a href=""><TwitterIcon /></a>
 
                 </div>
