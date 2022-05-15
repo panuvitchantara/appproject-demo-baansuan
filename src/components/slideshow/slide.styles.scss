@@ -1,6 +1,6 @@
 .slideshow-container {
   min-width: 30%;
-  margin: 1vh 0;
+  // margin: 1vh 0;
   width: 100vw;
   flex: 1 1 auto;
   display: flex;
@@ -9,7 +9,6 @@
   overflow: hidden;
   animation: fadeInUp 1.2s;
   position: relative;
-  // z-index: -1;
 
   .slideshows {
     width: 50vw;
@@ -37,14 +36,11 @@
   }
 
   .caption {
-    // max-width: 50%;
     height: 30%;
     padding: 20px;
     margin-right: 25px;
-    // right: 5%;
     background-color: rgba(252, 252, 252, 0.848);
     border-radius: 15px;
-    // display: flex;
     flex-wrap: wrap;
     align-content: center;
     position: relative;
@@ -82,11 +78,7 @@
     h1 {
       position: relative;
       font-size: 2.5rem;
-      // word-break: break-all;
       resize: both;
-      // text-overflow: ellipsis;
-      // white-space: nowrap;
-      // overflow: hidden;
 
     }
 
@@ -98,8 +90,6 @@
       word-break: break-all;
       resize: both;
       text-overflow: ellipsis;
-      // white-space:nowrap;
-      // overflow: scroll;
     }
   }
 }

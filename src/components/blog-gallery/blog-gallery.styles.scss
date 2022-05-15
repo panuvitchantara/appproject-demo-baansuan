@@ -1,18 +1,20 @@
 .blogs-section {
-    // width: 100%;
-    margin: 5%;
+    width: 100vw;
     overflow-x: hidden;
+    // padding: 5%;
+
+    .blog-section-title {
+        margin: 0% 5%;
+    }
 
     .blogs-container {
+        margin: 0% 5%;
         display: grid;
         gap: 10px;
         grid-auto-flow: column;
         grid-auto-columns: max-content;
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        padding: 0 15px 15px 15px;
-        // position: absolute;
-        // box-shadow: 5px 10px #888888;
     }
 
     p {

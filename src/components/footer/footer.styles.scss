@@ -3,13 +3,14 @@
     background-color: rgba(228, 228, 228, 0.886);
     width: 100vw;
     position: relative;
-    padding: 3% 3% 1vh 10vw;
-    margin-top: 5vh;
 
     .footnote-section {
         display: grid;
+        width: 100vw;
         grid-template-columns: 30% 60%;
         color: black;
+        margin-top: 1vh;
+        padding: 5% 5% 3% 5%;
 
 
         h2 {

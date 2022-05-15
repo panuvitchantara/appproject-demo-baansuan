@@ -1,16 +1,13 @@
 .navigation-container {
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     left: 50%;
     display: flex;
     justify-content: space-between;
-    // border: 1px solid;
-    // margin-bottom: 25px;
-
     
     .logo-container {
         height: 100%;
-        width: 200px;
+        width: 30vw;
         padding-inline-start: 5%;
 
         .logo {
