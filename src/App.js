@@ -10,13 +10,15 @@ const App = () => {
 
   return (
     <div className="App">
+
+      <div className="onScroll">
       <NavBar />
-      <SlideShow />
-      <ActivityShowcase />
-
-      <BlogGallery />
-
+        <SlideShow />
+        <ActivityShowcase />
+        <BlogGallery />
       <Footer />
+      </div>
+
     </div>
   );
 }

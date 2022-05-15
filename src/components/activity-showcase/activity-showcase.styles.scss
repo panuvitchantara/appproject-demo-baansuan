@@ -1,5 +1,6 @@
 .activities-showcase-container {
     width: 100vw;
+    animation-fill-mode: forwards;
 
     .activities-showcase-header {
         // border: 3px solid blue ;
@@ -16,19 +17,18 @@
         margin-top: 5px;
         margin-left: 20px;
         margin-right: 20px;
+        
 
         .paper-container {
             width: 90vw;
             height: 300px;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            background-color: rgba(255, 255, 255, 0);
             background-blend-mode: overlay;
             display: flex;
             position: relative;
             justify-content: center;
             margin-bottom: 20px;
+            animation: fadeInUp 1.2s;
+            cursor: pointer;
 
 
             h2::before {
@@ -55,12 +55,27 @@
                 transition: transform .3s ease;
             }
 
-            h2 {
-                color: white;
-                font-size: 2.5rem;
-                top: 25%;
-                z-index: 1;
-                position: absolute;
+            @media screen and (min-width: 768px) {
+
+                h2 {
+                    color: white;
+                    font-size: 2rem;
+                    resize: both;
+                    top: 25%;
+                    z-index: 1;
+                    position: absolute;
+                }
+            }
+
+            @media screen and (max-width: 769px) {
+                h2 {
+                    color: white;
+                    font-size: 2.5rem;
+                    resize: both;
+                    top: 25%;
+                    z-index: 1;
+                    position: absolute;
+                }
             }
 
             p {

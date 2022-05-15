@@ -2,6 +2,7 @@ import React from 'react'
 import Paper from '@mui/material/Paper';
 import './activity-showcase.styles.scss';
 
+
 const ActivityShowCase = () => {
 
     const ImageUrl = [
@@ -20,7 +21,10 @@ const ActivityShowCase = () => {
             <div className="activities-showcase-gallery-container">
                 <Paper className="paper-container" elevation={3}
                     style={{
-                        background: `url(${ImageUrl[0]}), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))`,
+                        background: `url(${ImageUrl[0]}),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))`,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
                     }}
                 >
                     <h2>กิจกรรมสะเต็มศึกษากับธรรมชาติในชุมชน</h2>
@@ -30,18 +34,24 @@ const ActivityShowCase = () => {
                 <Paper className="paper-container" elevation={3}
                     style={{
                         background: `url(${ImageUrl[1]}), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))`,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
                     }}
                 >
-                    <h2>กิจกรรมสะเต็มศึกษากับธรรมชาติในชุมชน</h2>
+                    <h2>เรียนรู้สะเต็มศึกษาด้วย iPad</h2>
                     <p>"lorem ipsum"</p>
                 </Paper>
 
                 <Paper className="paper-container" elevation={3}
                     style={{
                         background: `url(${ImageUrl[2]}), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))`,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
                     }}
                 >
-                    <h2>กิจกรรมสะเต็มศึกษากับธรรมชาติในชุมชน</h2>
+                    <h2>กิจกรรมสำรวจธรรมชาติ</h2>
                     <p>"lorem ipsum"</p>
                 </Paper>
             </div>
